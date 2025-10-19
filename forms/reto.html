@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+    <h1>Formularios en HTML</h1>
+    </header>
+
+    <form action="#" method="post">
+        <h2>Datos Personales</h2>
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="telf">Teléfono:</label>
+        <input type="tel" name="telf" id="telf">
+
+        <h2>Género</h2>
+        <input type="radio" id="m" value="m" name="lista">
+        <label for="m">Masculino</label><br>
+        <input type="radio" id="f" value="f" name="lista">
+        <label for="f">Femenino</label><br>
+        <input type="radio" id="o" value="o" name="lista">
+        <label for="o">Otro</label>
+
+        <h2>Preferencias</h2>
+        <input type="checkbox" name="check" id="musica">
+        <label for="musica">Música</label><br>
+        <input type="checkbox" name="check" id="deportes">
+        <label for="deportes">Deportes</label><br>
+        <input type="checkbox" name="check" id="lectura">
+        <label for="lectura">Lectura</label>
+
+        <h2>Comentarios</h2>
+        <textarea name="textarea" id="ta1" cols="50" rows="10"></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
